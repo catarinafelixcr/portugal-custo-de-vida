@@ -1,0 +1,23 @@
+# Data (generated or downloaded — recreate with scripts/run_all.py)
+data/raw/**
+data/clean/**
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+# small hand-made tables you DO want to version can go in data/manual/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Power BI
+*.pbix
+powerbi/**/.pbi/localSettings.json
+powerbi/**/.pbi/cache.abf
+
+# Editors / OS
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
